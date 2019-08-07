@@ -1,13 +1,16 @@
 // Select color input
-let color=document.querySelector("#colorPicker");
+const color=document.querySelector("#colorPicker");
 // Select size input
-let h=document.querySelector("#inputHeight");
-let w=document.querySelector("#inputWidth");
-let picker=document.querySelector("#sizePicker");
-let grid=document.querySelector("#pixelCanvas");
-// When size is submitted by the user, call makeGrid()
+const h=document.querySelector("#inputHeight");
+const w=document.querySelector("#inputWidth");
+const picker=document.querySelector("#sizePicker");
+const grid=document.querySelector("#pixelCanvas");
 
-
+/* 
+ a function to draw a grid by using two nested For loops
+ the first loop is to drawing the the rows and the second 
+ loop to draw the the cell
+*/
 
 function makeGrid(h,w) {
   // Your code goes here!
