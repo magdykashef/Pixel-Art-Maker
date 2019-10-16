@@ -6,12 +6,8 @@ const width = document.querySelector("#inputWidth");
 const picker = document.querySelector("#sizePicker");
 const grid = document.querySelector("#pixelCanvas");
 
-/* 
- a function to draw a grid by using two nested For loops
- the first loop is to drawing the the rows and the second 
- loop to draw the the cell
-*/
 
+// When size is submitted by the user, call makeGrid()
 function makeGrid(height,width) {
   // Your code goes here!
   for(let i = 0; i < height; i++){
